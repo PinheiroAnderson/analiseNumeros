@@ -1,0 +1,72 @@
+:root {
+    --blue: #6495ed;
+    --white: #f5f5f5;
+    --black: #000000;
+}
+
+* {
+    color: var(--fontColor);
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: var(--bg);
+}
+
+header {
+    color: rgb(253, 249, 249);
+    text-align: center;
+    font-size: 50px;
+}
+
+section {
+    background: #f5f5f5;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px #000000;
+}
+
+footer {
+    --fontColor: var(--white);
+    text-align: center;
+    font-style: italic;
+}
+
+.light-theme {
+    --bg: var(--blue);
+    --fontColor: var(--black);
+    --btnFontColor: var(--white);
+    --btnBg: var(--black);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--black);
+    --btnFontColor: var(--black);
+    --btnBg: var(--white);
+}
+
+.btn {
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+    position: center;
+    top: 50px;
+    left: 250px;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn:focus {
+    outline-style: none;
+}
+
+select {
+    
+    width: 150px;
+    
+
+}
